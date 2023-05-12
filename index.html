@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Produtos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tabela de Produtos</h1>
+    </header>
+    <main>
+        <div class="card">
+            <div>
+                <ul>
+                    <label for="">Nome do Produto:</label>
+                    <input type="text" placeholder="Informe o produto" id="textProduto">
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <label for="">Valor do Produto:</label>
+                    <input type="text" placeholder="R$ 00.00" id="valorProduto">
+                </ul>
+                <button onclick="produto.adicionar()">Adicionar</button>
+                <button onclick="produto.cancelar()">Cancelar</button>
+            </div>
+        </div>
+        <div>
+            <table border="1px">
+                <thead>
+                    <th>id</th>
+                    <th>produto</th>
+                    <th>Preço</th>
+                    <th>remover</th>
+                </thead>
+                <tbody id="tbody">
+                  
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

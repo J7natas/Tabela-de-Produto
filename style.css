@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    text-align: center;
+    font-size: 20px;
+    background-color: midnightblue;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: rgba(25, 25, 112, 0.818);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card ul {
+    display: grid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.card input {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #878787;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.card button {
+    padding: 15px;
+    background-color: midnightblue;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(4, 255, 255, 0.275);
+    transition: ease-out 0.4s;
+}
+
+table {
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: midnightblue;
+    color: white;
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+table td img {
+    width: 25px;
+}
